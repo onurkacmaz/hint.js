@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/hint.css">
+  </head>
+  <body>
+	<div id="container" class="container">
+		<div class="step step1" id="step1" data-hint="This is step 1" data-next-hint="step2">Step 1</div>
+		<div class="step step2" id="step2" data-hint="This is step 2" data-next-hint="step3">Step 2</div>
+		<div class="step step3" id="step3" data-hint="This is step 3" data-next-hint="step4">Step 3</div>
+		<div class="step step4" id="step4" data-hint="This is step 4" data-next-hint="step5">Step 4</div>
+		<div class="step step5" id="step5" data-hint="This is step 5" data-next-hint="step6">Step 5</div>
+		<div class="step step6" id="step6" data-hint="This is step 6" data-next-hint="step7">Step 6</div>
+		<div class="step step7" id="step7" data-hint="This is step 7">Step 7</div>
+	</div>
+  </body>
+  <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+  <script src="src/js/hint.js"></script>
+  <script>
+  	Hint.start({
+        'start': 'step1',
+        'selector': 'container',
+    });
+  </script>
+</html>
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>

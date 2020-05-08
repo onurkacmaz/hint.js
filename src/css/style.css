@@ -1,0 +1,23 @@
+body {
+	margin:0;
+	padding: 0;
+	color: #000!important;
+	font-family: arial;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.step {
+	width: 220px;
+	margin-right: 20px;
+	height: 150px; 
+	justify-content: center;
+	align-items: center;
+	background: #fafbfb;
+	border:solid 1px #ccc;
+	margin-bottom: 20px;
+	color: #000;
+
+}
+

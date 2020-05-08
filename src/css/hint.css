@@ -1,0 +1,43 @@
+.overlay {
+    background-color: #000000d3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 101;
+}
+.related {
+    z-index: 102;
+}
+#loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hint {
+    background-color:#fff;
+    word-break: break-all;
+    padding: 10px;
+    display: flex;
+    width:calc(100% - 25px);
+    z-index: 200;
+    background: #f00;
+    position: relative; 
+    bottom: 0;
+    border-radius: 10px;
+}
+.go_it {
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    float:right;
+}
+.finish-button {
+    position: absolute;
+    right:20px;
+    top:20px;
+    z-index: 99999;
+    background: #fafbfb;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:5px;
+}
